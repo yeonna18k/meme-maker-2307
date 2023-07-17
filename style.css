@@ -2,15 +2,46 @@ canvas {
   width: 800px;
   height: 800px;
   border: 3px solid black;
+  background-color: white;
+  margin-bottom: 70px;
 }
 
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: azure;
 }
 .color-option {
   width: 50px;
   height: 50px;
   cursor: pointer;
+  border-radius: 50%;
+}
+.color-option-div {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+#line-width {
+  margin-bottom: 30px;
+}
+#color {
+  width: 50px;
+  height: 50px;
+}
+#mode-btn,
+#destroy-btn,
+#eraser-btn,
+#file,
+#save {
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
+#text {
+  margin-bottom: 30px;
 }
